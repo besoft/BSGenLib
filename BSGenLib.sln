@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BSGenLib", "BSGenLib\BSGenLib.vcxproj", "{1534AA8D-92E2-4E4F-91D4-8A00AE659460}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ATL Debug|Win32 = ATL Debug|Win32
+		ATL Release|Win32 = ATL Release|Win32
+		ATL Unicode Debug|Win32 = ATL Unicode Debug|Win32
+		ATL Unicode Release|Win32 = ATL Unicode Release|Win32
+		MFC Debug|Win32 = MFC Debug|Win32
+		MFC Release|Win32 = MFC Release|Win32
+		MFC Unicode Debug|Win32 = MFC Unicode Debug|Win32
+		MFC Unicode Release|Win32 = MFC Unicode Release|Win32
+		WIN Debug|Win32 = WIN Debug|Win32
+		WIN Release|Win32 = WIN Release|Win32
+		WIN Unicode Debug|Win32 = WIN Unicode Debug|Win32
+		WIN Unicode Release|Win32 = WIN Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Debug|Win32.ActiveCfg = ATL Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Debug|Win32.Build.0 = ATL Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Release|Win32.ActiveCfg = ATL Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Release|Win32.Build.0 = ATL Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Unicode Debug|Win32.ActiveCfg = ATL Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Unicode Debug|Win32.Build.0 = ATL Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Unicode Release|Win32.ActiveCfg = ATL Unicode Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.ATL Unicode Release|Win32.Build.0 = ATL Unicode Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Debug|Win32.ActiveCfg = MFC Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Debug|Win32.Build.0 = MFC Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Release|Win32.ActiveCfg = MFC Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Release|Win32.Build.0 = MFC Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Unicode Debug|Win32.ActiveCfg = MFC Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Unicode Debug|Win32.Build.0 = MFC Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Unicode Release|Win32.ActiveCfg = MFC Unicode Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.MFC Unicode Release|Win32.Build.0 = MFC Unicode Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Debug|Win32.ActiveCfg = WIN Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Debug|Win32.Build.0 = WIN Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Release|Win32.ActiveCfg = WIN Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Release|Win32.Build.0 = WIN Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Unicode Debug|Win32.ActiveCfg = WIN Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Unicode Debug|Win32.Build.0 = WIN Unicode Debug|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Unicode Release|Win32.ActiveCfg = WIN Unicode Release|Win32
+		{1534AA8D-92E2-4E4F-91D4-8A00AE659460}.WIN Unicode Release|Win32.Build.0 = WIN Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

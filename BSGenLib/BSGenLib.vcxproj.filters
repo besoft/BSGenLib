@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{01ff4bfa-9c2a-4eba-9eb0-49db68103f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParSync">
+      <UniqueIdentifier>{ad3217fc-8e88-4833-9a5b-87a9cc489902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{982dfd8a-1aaf-4e6d-90ca-a5f95c7301bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{e7516ad1-e929-49d2-ae04-b6a197647e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParSync">
+      <UniqueIdentifier>{0344385f-4052-4c6f-a188-637bc1a3dd17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{d039a462-dc45-4051-9454-5ceb93632205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\BSUtil.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Console.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Convert.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Directory.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\LogFile.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\MemMng.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\MemUtils.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\ObjPtr.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Path.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\SimpleList.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\String.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParSync\LogFileEx.cpp">
+      <Filter>Source Files\ParSync</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParSync\Profiling.cpp">
+      <Filter>Source Files\ParSync</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParSync\thread.cpp">
+      <Filter>Source Files\ParSync</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParSync\waithandle.cpp">
+      <Filter>Source Files\ParSync</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\fileutils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\ImageUtils.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\BSGenLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Array.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\ArraysDefs.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\ArrayUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\BSUtil.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Buffer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Console.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Convert.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\delegate.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Directory.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\DynPool.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Enum.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\HashTable.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\HashTableDefs.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\INIFile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\LargeArray.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\List.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\LogFile.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\MemMng.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\MemUtils.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Path.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\PriorityQueue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Queue.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\RefObj.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\RUList.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\SimpleList.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\Stack.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Common\String.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\AutoProfiling.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\CS.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\Interlocked.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\LogFileEx.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\ObjPtr.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\Profiling.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\SharedObj.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\ShortCS.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\syncevnts.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\SyncLock.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\SyncLogFile.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\SyncQueue.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\Thread.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParSync\WaitHandle.h">
+      <Filter>Header Files\ParSync</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\fileutils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utils\ImageUtils.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="Include\Common\RedBlackTree.h">
+      <Filter>Header Files\Common</Filter>
+    </CustomBuildStep>
+  </ItemGroup>
+</Project>
