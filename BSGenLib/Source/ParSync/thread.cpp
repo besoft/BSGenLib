@@ -18,6 +18,7 @@ bool CThread::Abort()
 {
 	bool bResult = false;	
 
+#if !defined(_WIN64)
 	//HARAKIRI	
 	CONTEXT context;
 	if (::SuspendThread(m_hHandle) != (DWORD)-1)		
@@ -32,6 +33,7 @@ bool CThread::Abort()
 
 		::ResumeThread(m_hHandle);
 	}
+#endif
 
 	return bResult;
 }
